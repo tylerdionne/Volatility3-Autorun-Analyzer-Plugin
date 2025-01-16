@@ -1,0 +1,17 @@
+Volatility 3 Framework 2.11.0
+
+Data String     Hive Name       Key Path        Value Name      Suspicious Label
+
+%windir%\system32\SecurityHealthSystray.exe     \SystemRoot\System32\Config\SOFTWARE    SOFTWARE\Microsoft\Windows\CurrentVersion\Run   SecurityHealth
+%SystemRoot%\system32\VBoxTray.exe      \SystemRoot\System32\Config\SOFTWARE    SOFTWARE\Microsoft\Windows\CurrentVersion\Run   VBoxTray
+                          
+Volatility 3 Framework 2.11.0
+
+Data String     Hive Name       Key Path        Value Name      Suspicious Label
+
+%windir%\system32\SecurityHealthSystray.exe     \SystemRoot\System32\Config\SOFTWARE    SOFTWARE\Microsoft\Windows\CurrentVersion\Run   SecurityHealth
+%SystemRoot%\system32\VBoxTray.exe      \SystemRoot\System32\Config\SOFTWARE    SOFTWARE\Microsoft\Windows\CurrentVersion\Run   VBoxTray
+C:\temp\malicious.bat   \SystemRoot\System32\Config\SOFTWARE    SOFTWARE\Microsoft\Windows\CurrentVersion\Run   MaliciousService        SUSPICIOUS
+C:\Users\Public\totally_not_malware.exe \SystemRoot\System32\Config\SOFTWARE    SOFTWARE\Microsoft\Windows\CurrentVersion\Run   SuspiciousService       SUSPICIOUS
+        
+
